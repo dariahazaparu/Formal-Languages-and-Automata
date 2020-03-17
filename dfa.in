@@ -1,0 +1,24 @@
+6
+6
+a b c x y z
+0
+2
+4 5
+11
+0 a 1
+0 b 2
+1 x 0
+1 c 3
+2 a 1
+3 b 3
+3 y 4
+3 z 5
+4 a 4
+5 a 4
+5 b 5
+5
+axbacbbzbbaaa
+axccbya
+axbac
+bacy
+bacyaab
