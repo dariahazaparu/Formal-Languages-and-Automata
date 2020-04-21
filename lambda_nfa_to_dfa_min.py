@@ -1,9 +1,17 @@
+# In fisier sunt 4 exemple de automate: 
+#   1) lnfa;
+#   2) nfa;
+#   3) dfa;
+#   4) pentru a testa daca s-au eliminat corect starile in dfa_to_dfa_min.
+# Codul citeste doar un singur automat, deci trebuie modificat fisierul pentru a le testa pe celelalte.
+# Afisarea se face pe ecran.
+
 import queue
 
 
 def citire_lnfa():
     global n, Q, m, E, d, q0, k, F, l, delta
-    f = open("lnfa.in")
+    f = open("lambda_nfa_to_dfa_min.in")
     n = int(f.readline())
     Q = [int(i) for i in range(n)]
     m = int(f.readline())
